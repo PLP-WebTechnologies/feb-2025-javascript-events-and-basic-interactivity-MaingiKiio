@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate software developer with experience in web development, database management, and telecommunication engineering.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-gallery">
+      <div class="project">
+        <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Project 1">
+        <h3>NRA</h3>
+        <p>A government portal for South Sudan</p>
+      </div>
+      <div class="project">
+        <img src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Project 2">
+        <h3>Cascade Kitchen</h3>
+        <p>A cascaded app for centralizing management for food orders and deliveries</p>
+      </div>
+      <div class="project">
+        <img src="https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Project 3">
+        <h3>Emanager</h3>
+        <p>Created an Energy Management APP</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Elixir Phoenix</li>
+      <li>Vue.js</li>
+      <li>MySQL & TimescaleDB</li>
+      <li>Fiber Optic Networks</li>
+      <li>Database Management</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <span id="feedback"></span>
+  </section>
+
+  <footer>
+    <p> &copy; 2025 Stanley Kiio | Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
